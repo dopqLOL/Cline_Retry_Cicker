@@ -65,6 +65,7 @@ While using the Cline VSCode extension, I frequently encountered the "API reques
 6.  **(任意)** 上限回数、判定間隔（秒）、判定範囲（感度）を設定します。
 7.  **監視 開始**: 全ての設定（範囲、クリック、色1、および2色モード時は色2）が完了すると「監視 開始」ボタンが有効になります。ボタンを押すか、F9キーを押すと監視が開始されます。
 8.  **監視 停止**: 監視中に「監視 停止」ボタンを押すか、F9キーを押すと監視が停止します。
+9.  **設定保存**: 設定はアプリ終了時に settings.json ファイルに自動的に保存され、次回起動時に読み込まれます。
 
 ### 注意事項 <a name="注意事項-jp"></a>
 
@@ -136,7 +137,7 @@ pip install pynput pyautogui Pillow mss
 6.  **(Optional)** Set the Click Limit, Detection Interval (sec), and Detection Range (Sensitivity).
 7.  **Start Monitoring**: The "Start Monitoring" button will be enabled once all required settings (Range, Click, Color 1, and Color 2 if in dual mode) are configured. Click the button or press the F9 key to begin.
 8.  **Stop Monitoring**: Click the "Stop Monitoring" button or press the F9 key while monitoring is active to stop.
-
+9.  **Settings**: Settings are automatically saved to the `settings.json` file when the application closes and are loaded the next time it starts.
 ### Notes <a name="notes-en"></a>
 
 *   The application window stays on top (`Topmost`).
