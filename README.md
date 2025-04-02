@@ -70,7 +70,7 @@ While using the Cline VSCode extension, I frequently encountered the "API reques
 
 *   アプリは常に最前面に表示されます (`Topmost`)。
 *   監視範囲やクリック地点の設定中は、ESCキーでキャンセルできます。
-*   設定はアプリ終了時に保存されません。起動ごとに設定が必要です。
+*   設定はアプリ終了時に `settings.json` ファイルに自動的に保存され、次回起動時に読み込まれます。
 
 ### 開発環境 (参考) <a name="開発環境-参考-jp"></a>
 
@@ -141,7 +141,7 @@ pip install pynput pyautogui Pillow mss
 
 *   The application window stays on top (`Topmost`).
 *   You can cancel range or click point setting by pressing the ESC key.
-*   Settings are not saved when the application closes. You need to configure them each time you launch it.
+*   Settings are automatically saved to the `settings.json` file when the application closes and are loaded the next time it starts.
 
 ### Development Environment (Reference) <a name="development-environment-reference-en"></a>
 
