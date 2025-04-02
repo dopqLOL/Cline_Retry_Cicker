@@ -1,0 +1,29 @@
+{
+    "monitoring_rect": {
+        "x1": 56,
+        "y1": 133,
+        "x2": 275,
+        "y2": 881
+    },
+    "click_point": {
+        "x": 115,
+        "y": 929
+    },
+    "target_colors": [
+        {
+            "R": 196,
+            "G": 43,
+            "B": 39
+        },
+        null
+    ],
+    "target_color_tolerance": 30,
+    "color_set_status": [
+        true,
+        false
+    ],
+    "detection_mode": "single",
+    "click_limit": "",
+    "click_delay": "0.1",
+    "sensitivity": "判定: 普通"
+}
